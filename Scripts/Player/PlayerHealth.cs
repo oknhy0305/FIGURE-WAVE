@@ -17,7 +17,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("UI Reference")]
     public TextMeshProUGUI playerhealthText; // 체력 텍스트 UI 참조
-    public GameObject gameOverUI;           // 게임 오버 시 활성화할 패널(Panel) 오브젝트
+    public GameObject gameOverUI;// 게임 오버 시 활성화할 패널(Panel) 오브젝트
     public GameObject hud;//HUD ui 참조
 
     private Color originalHealthText;

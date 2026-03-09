@@ -12,7 +12,7 @@ public class PlayerWeapon : MonoBehaviour
     public int damage; // 무기가 입히는 데미지 양
     
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();

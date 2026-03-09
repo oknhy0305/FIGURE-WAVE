@@ -24,7 +24,7 @@ public class MainMenuManager : MonoBehaviour
         
         // 에디터 상에서는 작동하지 않으므로 확인용 로그 출력
         #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;//=======================================집가서 확인
+        UnityEditor.EditorApplication.isPlaying = false;
         #endif
     }
 }

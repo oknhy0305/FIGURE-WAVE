@@ -104,7 +104,7 @@ public class EnemyGenerator : MonoBehaviour
     {
         for (int i = 0; i < 10; i++)// 최대 10번 시도
         {
-            Vector2 randomCircle = Random.insideUnitCircle.normalized * spawnRadius;//스폰원을 기준으로=> 집가서 정리////////////////////////////////////// 
+            Vector2 randomCircle = Random.insideUnitCircle.normalized * spawnRadius;
             Vector3 pos = new Vector3(randomCircle.x, randomCircle.y, 0) + player.position;// 플레이어 기준 랜덤으로 생성된 좌표를 더하여 적을 생성할 위치를 정함
 
             if (Physics2D.OverlapCircle(pos, 0.5f, wallLayer) == null) // OverlapCircle 함수는 지정한 위치에 원을그리고 그 원이 벽과 겹치는지 체크. 겹치지 않으면 null 반환
